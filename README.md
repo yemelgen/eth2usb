@@ -6,6 +6,7 @@ The PCB design include the pair of connectors attached to each end of the cable.
 
 Here's the example pinout
 
+```
 USB Ethernet NIC #1
 1 TX+ White Orange = B11
 2 TX- Orange       = B10
@@ -25,4 +26,4 @@ USB Ethernet NIC #2
 4 B1- Blue         = B10
 7 B2+ White Brown  = A11
 8 B2- Brown        = A10
-
+```
