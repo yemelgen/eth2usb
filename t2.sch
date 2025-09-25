@@ -1,0 +1,132 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rj45smd
+LIBS:usb_c
+LIBS:t2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RJ45SMD J1
+U 1 1 60021984
+P 5350 2400
+F 0 "J1" H 4700 2250 60  0000 C CNN
+F 1 "RJ45SMD" H 5350 2450 60  0000 C CNN
+F 2 "RJ45:RJ45SMD" H 5000 2350 60  0001 C CNN
+F 3 "" H 5000 2350 60  0001 C CNN
+	1    5350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_C U1
+U 1 1 600219AD
+P 5400 4600
+F 0 "U1" H 6450 4600 60  0000 C CNN
+F 1 "USB_C" H 4300 4600 60  0000 C CNN
+F 2 "USB_C:USB_C_24P_SMT_Right_Angle" H 5350 5100 60  0001 C CNN
+F 3 "" H 5350 5100 60  0001 C CNN
+	1    5400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2900 4850 3600
+Wire Wire Line
+	4850 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 4100
+Wire Wire Line
+	5000 2900 5000 3700
+Wire Wire Line
+	5000 3700 4900 3700
+Wire Wire Line
+	4900 3700 4900 4100
+Wire Wire Line
+	5750 2900 5750 3950
+Wire Wire Line
+	5750 3950 6100 3950
+Wire Wire Line
+	6100 3950 6100 4100
+Wire Wire Line
+	5150 2900 5150 3400
+Wire Wire Line
+	5150 3400 6650 3400
+Wire Wire Line
+	6650 3400 6650 5300
+Wire Wire Line
+	6650 5300 6100 5300
+Wire Wire Line
+	6100 5300 6100 5100
+Wire Wire Line
+	5600 2900 6900 2900
+Wire Wire Line
+	6900 2900 6900 5400
+Wire Wire Line
+	6900 5400 5950 5400
+Wire Wire Line
+	5950 5400 5950 5100
+Wire Wire Line
+	5300 3050 5300 2900
+Wire Wire Line
+	3900 3050 5300 3050
+Wire Wire Line
+	3900 3050 3900 5250
+Wire Wire Line
+	3900 5250 4900 5250
+Wire Wire Line
+	4900 5250 4900 5100
+Wire Wire Line
+	5450 2900 5450 3200
+Wire Wire Line
+	5450 3200 3750 3200
+Wire Wire Line
+	3750 3200 3750 5450
+Wire Wire Line
+	3750 5450 4750 5450
+Wire Wire Line
+	4750 5450 4750 5100
+Wire Wire Line
+	5900 3850 5950 3850
+Wire Wire Line
+	5950 3850 5950 4100
+Wire Wire Line
+	5900 2900 5900 3850
+$EndSCHEMATC
